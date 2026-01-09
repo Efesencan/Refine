@@ -11,7 +11,6 @@
 - **Robust to Data Contamination**: Achieves an F1-score of 0.88 even with up to 10% anomalies in the training dataset
 - **Unsupervised Learning**: No labeled data required for training
 - **Iterative Refinement**: Progressively improves model performance by removing high-error samples
-- **Production-Ready**: Validated on real production HPC systems (Eclipse at Sandia National Laboratories)
 - **Model-Agnostic**: Can be adapted to any reconstruction loss-based anomaly detection method
 
 ## How It Works
@@ -25,15 +24,12 @@ Refine uses a VAE-based approach with the following key innovations:
 The framework exploits the observation that anomalous samples exhibit higher reconstruction errors than healthy samples, especially during early training stages.
 
 ## Repository Structure
-
-- `empire_data_experiment/` - Experiments related to EMPIRE data analysis
 - `job_scripts/` - HPC job submission scripts for running experiments
 - `scripts/` - Core implementation scripts including the Refine framework
 
 ## Performance
 
 - **F1-Score**: 0.88 with 10% training data contamination (Eclipse dataset)
-- **Real-World Validation**: 100% accuracy on production system anomaly detection
 - **Outperforms**: State-of-the-art methods including Prodigy, Isolation Forest, LOF, NegCo, LOE, NCAE, and IAD
 
 ## Citation
