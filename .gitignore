@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files
+*.csv
+*.hdf
+*.h5
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.joblib
+*.gz
+
+# Logs
+*.log
+logs/
+*.out
+*.err
+
+# Job output files
+*.o[0-9]*
+*.e[0-9]*
+
+# Model checkpoints
+checkpoints/
+*.pth
+*.pt
+
+# OS
+.DS_Store
+Thumbs.db
+
