@@ -88,10 +88,6 @@ python scripts/refine.py [arguments]
 - **Manuel Egele** - Boston University
 - **Ayse K. Coskun** - Boston University
 
-## License
-
-[Specify license information]
-
 ## Acknowledgments
 
 This work was conducted in collaboration with Sandia National Laboratories using the Eclipse and Volta HPC systems.
